@@ -1,0 +1,557 @@
+* {
+    margin: 0px;
+    padding: 0px 0px;
+    /* box-sizing: border-box; */
+    border-radius: 20px;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(6, 6, 6);
+}
+
+#navigation {
+    display: flex;
+    border: 2px solid black;
+    background-color: grey;
+    justify-content: space-between;
+}
+
+.nav {
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+
+}
+
+img {
+    cursor: pointer;
+}
+
+i {
+    cursor: pointer;
+    filter: invert();
+}
+
+button {
+    cursor: pointer;
+}
+
+.navs {
+    width: 11vw;
+
+}
+
+.navb {
+    width: 69vw;
+
+
+}
+
+#nav1 {
+    display: flex;
+
+    justify-content: center;
+}
+
+#nav2 {
+    display: flex;
+
+    justify-content: center;
+}
+
+
+#nav3 {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+
+}
+
+#nav4 {
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+#option {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+}
+
+.opt {}
+
+.rpsicon {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 23vw;
+}
+
+#ricon {}
+
+#picon {}
+
+#sicon {}
+
+#modes {
+    display: flex;
+    flex-direction: row;
+    justify-content: centre;
+}
+
+.ffmode {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+#jcroom {
+    display: flex;
+    height: 5vh;
+    width: 50%;
+    margin-top: 3px;
+    padding: 4px;
+
+}
+
+/* .jcrooms {
+    height: 5vh;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 4px solid red; */
+/* } */
+
+.roominp {
+    width: 25vw;
+    margin: 0 2px 0 0;
+
+}
+
+form {
+    border: 2px solid black;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#mainscreen {
+    display: flex;
+    background-color: black;
+    margin: 2px 0px;
+}
+
+.mains {
+    height: 80vh;
+}
+
+#main1 {
+    width: 72vw;
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: grey;
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+#userside {
+    width: 45%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+#botside {
+    width: 45%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#main2 {
+    width: 20vw;
+    display: flex;
+    border: none;
+    flex-direction: column;
+    background-color: grey;
+}
+
+#main3 {
+    width: 8vw;
+    background-color: black;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#sidescrn1 {
+    width: 20vw;
+    height: 60vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+
+}
+
+#sidescrn2 {
+    width: 20vw;
+    height: 25vh;
+    display: flex;
+    /* border: 2px solid black; */
+    flex-direction: column;
+}
+
+#msgwrt {
+    display: flex;
+
+}
+
+.sidebar {
+    width: 8vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.msgclass {
+    width: 20vw;
+}
+
+#msgwrt {
+    height: 5vh;
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+#msgsee {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 20vh;
+    padding: 5px;
+    overflow-y: scroll;
+}
+
+#chatform {
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+}
+
+#inptxt {
+    width: 18vw;
+
+}
+
+input {
+    padding: 0px 5px;
+    outline: none;
+}
+
+button {
+    padding: 0px 5px;
+}
+
+.btn {}
+
+.navs img {
+    /* height: 15vh; */
+    /* width: ; */
+}
+
+.rpsicon img {
+    /* height: 11vh; */
+    width: 4.5vw;
+}
+
+#usericon img {
+    height: 8vh;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+}
+
+#username {
+
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    color: white;
+}
+
+#usericon {
+
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.sidebar img {
+
+    height: 10vh;
+}
+
+/*  */
+.playarea {
+    margin: 2px 0px;
+    height: 80%;
+    width: 100%;
+    background-color: grey;
+    /* border: 1px solid rgb(126, 17, 17); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#playarea1 {
+    margin: 2px 0px;
+    height: 80%;
+    width: 100%;
+    background-color: grey;
+    /* border: 1px solid rgb(126, 17, 17); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
+
+#playarea2 {
+    margin: 2px 0px;
+    height: 80%;
+    width: 100%;
+    background-color: grey;
+    /* border: 1px solid rgb(126, 17, 17); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
+
+#botmodescreen {
+    margin: 10px 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(128, 128, 128);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid greenyellow; */
+
+}
+
+
+#multimodescreen {
+    margin: 10px 0px;
+    width: 100%;
+    height: 100%;
+    background-color:grey;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: green; */
+    z-index: 2;
+    display: none;
+}
+
+/*  */
+
+#msgsee::-webkit-scrollbar {
+    width: 0;
+}
+
+#vacant-area {
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    height: 90%;
+    width: 85%;
+    margin: 5px;
+    justify-content: space-around;
+}
+
+.rpsimg {
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 2px solid wheat;
+}
+
+#room-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.leaderboard img {
+
+    width: 25px;
+}
+
+.leaderboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.rocks {
+    border: 2px solid red;
+}
+
+.papers {
+    border: 2px solid greenyellow;
+}
+
+.scissors {
+    border: 2px solid blue;
+}
+
+#usernameinp {
+    background: none;
+    border: none;
+    text-align: center;
+    width: 60%;
+    /* height: 30%; */
+    color: white;
+    font-size: large;
+    padding: 0;
+    margin: 0;
+}
+
+#usernamebtn {
+    display: none;
+}
+
+#usernameoutput {
+    width: 60%;
+    height: 100%;
+    display: none;
+    font-size: 20px;
+}
+
+.userrps {
+    height: 120px;
+    width: 120px;
+    margin: 5px auto;
+}
+
+.userchose {
+
+    
+
+
+}
+
+.usernotchose {
+
+  
+
+}
+
+.botchose  {
+    width: 60%;
+    margin: auto;
+    /* border: 2px solid rgb(255, 34, 0); */
+    padding: 2px;
+}
+
+#leftimg img {
+    width: 60%;
+    margin: auto;
+    /* border: 2px solid rgb(255, 34, 0); */
+    padding: 2px;
+} 
+
+
+ #rightimg img {
+    width: 60%;
+    margin: auto;
+    /* border: 2px solid rgb(255, 34, 0); */
+    padding: 2px;
+} 
+
+#botscore {
+
+    padding: 5px;
+    width: 30%;
+    font-size: large;
+    align-items: center;
+    display: block;
+    border: 2px solid black;
+}
+
+#botresult {
+    padding: 5px;
+    width: 30%;
+    font-size: large;
+    align-items: center;
+    display: block;
+    border: 2px solid black;
+}
+
+#choosemode {
+    color: rgb(0, 0, 0);
+    background-color: green;
+}
+#leftimg {
+   margin: auto;
+    height: 500px;
+    width: 500px;
+}
+#rightimg {
+   margin: auto;
+    height: 500px;
+    width: 500px;
+}
+
+.announce1{
+    margin: 10px 0 0 0 ;
+background-color: black;
+color: white;
+font-weight: bold;
+}
+.announce2{
+    margin: 10px 0;
+background-color: rgb(0, 208, 255);
+color: rgb(0, 0, 0);
+font-weight: bold;
+/* width: 40%; */
+/* height: 10%/; */
+font-size: large;
+align-items: center;
+display: block;
+}
