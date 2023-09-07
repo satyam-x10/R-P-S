@@ -217,21 +217,21 @@ document.addEventListener('DOMContentLoaded', function () {
       var img = document.createElement("img");
       // Set the source and other attributes for the image
       if (active == rps[0]) {
-        img.src = "../img/r1.png";
+        img.src = "img/r1.png";
         img.alt = "rck";
         img.classList.add("rocks")
         img.classList.add("rkprsr")
         console.log("sending rock");
       }
       else if (active == rps[1]) {
-        img.src = "../img/p1.jfif";
+        img.src = "img/p1.jfif";
         img.alt = "ppr";
         img.classList.add("papers")
         img.classList.add("rkprsr")
         console.log("sending paper");
       }
       else if (active == rps[2]) {
-        img.src = "../img/s1.png";
+        img.src = "img/s1.png";
         img.alt = "scr";
         img.classList.add("scissors")
         img.classList.add("rkprsr")
